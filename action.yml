@@ -31,5 +31,6 @@ runs:
         if [ -f pom.xml ]; then
           mvn clean install
         else
-          echo "No build file found (pom.xml or build.gradle)"
+          echo "No build file found (pom.xml or build.gradle) and java jar files"
         fi
+
